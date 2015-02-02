@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>NathanBlog</title>
+        <title>Dont Look Here</title>
     </head>
     <body>
         <?php
-        echo "web server is running locally";
+        echo "Tig Oh Bitties";
         ?>
     </body>
 </html>
