@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Dont Look Here</title>
+        <title>Tig Oh Bitties</title>
     </head>
     <body>
         <?php
-        echo "Tig Oh Bitties";
+        require_once(__DIR__ . "/controller/create-db.php");
         ?>
     </body>
 </html>
