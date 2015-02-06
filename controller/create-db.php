@@ -10,8 +10,22 @@ require_once (__DIR__ . "/../model/database.php");
     $exists = $connection->select_db($database);
     
     if(!$exists) {
-        echo "Database does not exists";
+        $query = $connection->query("CREATE DATABASE $database");
+        
+        if($query) {
+            echo "Succesfully created database: " . $database;
+        }
+    }
+    else {
+        echo "Database already exists";
     }
        
+    $query = $connection->query("CREATE TABLE posts ("
+            . "id int(11) NOT NULL AUTO_INCREMENT,"
+            . "title varchar(255) NOT NULL"
+            . "post text NOT NULL,"
+            . "PRIMARY KEY (id)) ");
+    
+    if()
     
     $connection->close();
