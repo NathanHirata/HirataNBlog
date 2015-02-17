@@ -2,6 +2,6 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>Tig Oh Bitties</title>
+        <title>Johnny Harder</title>
     </head>
     <body>
