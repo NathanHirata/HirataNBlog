@@ -51,9 +51,9 @@ class Database {
         $this->openConnection();
 
         $query = $this->connection->query($string);
-        
-        if(!$query) {
-            $this->error = $this->connection->error; 
+
+        if (!$query) {
+            $this->error = $this->connection->error;
         }
 
         $this->closeConnection();
