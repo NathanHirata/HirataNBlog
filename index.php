@@ -7,8 +7,8 @@
         <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
         <title>Johnny Harder</title>
     <div class="jumbotron" >
-    <button type="button"><a  class="border" href="login.php" >Login</a></button> 
-    <button type="button"><a class="border" href="controller/logout-user.php" >Logout</a></button>
+    <button type="button"><a  class="border red" href="login.php" >Login</a></button> 
+    <button type="button"><a class="border red" href="controller/logout-user.php" >Logout</a></button>
     <p>Dont have an account? <a class="red" href="register.php" >Create One</a></p>
     <h1 class="green" >POSTS</h1> 
     </div>

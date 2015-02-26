@@ -2,8 +2,16 @@
 require_once(__DIR__ . "/../model/config.php");
 ?>
 
-<h1>Register</h1>
+<meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/css1.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
 
+<div class="jumbotron" >
+<h1>Register</h1>
+</div>
+
+<body class="blue" >
 <form method="post" action="<?php echo $path . "controller/create-user.php"; ?>">
     <div>
         <label for="email" >Email: </label>
@@ -25,5 +33,5 @@ require_once(__DIR__ . "/../model/config.php");
     </div>
 </form>
 
-
+</body>
 

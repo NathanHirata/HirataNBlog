@@ -9,6 +9,6 @@ if(!authenticatUser()) {
 ?>
 <nav>
     <ul>
-        <li><a class="red" href="<?php echo $path . "post.php"?>">Create A Post</a></li>
+        <li><a class="red bg-white" href="<?php echo $path . "post.php"?>">Create A Post</a></li>
     </ul>
 </nav>

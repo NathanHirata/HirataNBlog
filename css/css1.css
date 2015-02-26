@@ -3,7 +3,7 @@
 }
 
 .blue {
-    background-color: #296aff;
+    background-color: #4779f6 ;
 }
 
 .border {
@@ -14,6 +14,11 @@
     color: green;
 }
 
+.bg-white {
+    background-color: white;
+}
 
-
-
+.button1 {
+    padding-top: 10px;
+    padding-left: 25
+}

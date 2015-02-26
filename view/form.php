@@ -7,12 +7,22 @@ if(!authenticatUser()) {
     die();
 }
 ?>
+
+        <meta charset="UTF-8">
+        <link type="text/css" rel="stylesheet" href="css/css1.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap-theme.css">
+        <link type="text/css" rel="stylesheet" href="css/bootstrap.css">
+
 <body class="blue">
 
+    <div class="jumbotron" >
 <h1>Create Blog Post</h1>
 
-<br /><p>Write anything you want then click submit</p>
-
+<p>Write anything you want then click submit</p>
+    </div>
+    
+    
+<body class="blue" >
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>
         <label for="title">Title: </label>
@@ -28,3 +38,8 @@ if(!authenticatUser()) {
         <button type="submit" >Submit</button>
     </div>
 </form>
+    
+</body>
+    
+    
+    
