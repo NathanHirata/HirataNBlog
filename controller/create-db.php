@@ -8,12 +8,6 @@ $query = $_SESSION["connection"]->query("CREATE TABLE posts ("
         . "post text NOT NULL,"
         . "PRIMARY KEY (id))");
 
-if ($query) {
-    echo "<p>Succesfully create table: post</p>";
-} else {
-    echo "<p>" . $_SESSION["connection"]->error . "</p>";
-}
-
 $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "id int(11) NOT NULL AUTO_INCREMENT,"
         . "username varchar(30) NOT NULL,"
@@ -22,12 +16,5 @@ $query = $_SESSION["connection"]->query("CREATE TABLE users ("
         . "salt char(128) NOT NULL,"
         . "PRIMARY KEY (id))");
 
-    if($query) {
-        echo "<p> Successfully created table: users </p>";
-    }
-    
-    else {
-        echo "<p>" . $_SESSION["connection"]->error . "</p>";
-    }
-    
+
     

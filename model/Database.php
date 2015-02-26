@@ -29,7 +29,7 @@ class Database {
                 echo "<p>Succesfully created database: " . $database . "</p>";
             }
         } else {
-            echo "<p>Database already exists</p>";
+            echo "<p>To Create a Blog Post you must <a href='login.php' >Login</a></p>";
         }
     }
 

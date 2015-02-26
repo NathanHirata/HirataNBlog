@@ -1,8 +1,17 @@
 <?php 
 require_once(__DIR__ . "/../model/config.php");
+require_once(__DIR__ . "/../controller/login-verify.php");
+ 
+if(!authenticatUser()) {
+    header("Location: " . $path . "index.php");
+    die();
+}
 ?>
+<body class="blue">
 
 <h1>Create Blog Post</h1>
+
+<br /><p>Write anything you want then click submit</p>
 
 <form method="post" action="<?php echo $path . "controller/create-post.php"; ?>">
     <div>

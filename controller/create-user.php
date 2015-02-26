@@ -20,6 +20,7 @@ $query = $_SESSION["connection"]->query("INSERT INTO users SET "
 if($query) {
     echo "succesfully created user: $username";
 }
-else {
-    echo "<p>" . $_SESSION["connection"]->error . "</p>";
-}
+?>
+
+<br /><button type="button" ><a href="index.php" >HOME</a></button>
+<br /><button type="button" ><a href="login.php" >LOGIN</a></button>
